@@ -20,8 +20,16 @@ public class vehiculo {
         this.matricula=matricula;
         
     }
-    
 
+    @Override
+    public String toString() {
+        
+        return "["+marca+", "+modelo+", "+matricula+"]";
+    }
+    
+public void Marca () {
+    System.out.println("Marca : "+marca);
+}
 
     
 }
