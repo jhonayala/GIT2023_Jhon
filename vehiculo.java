@@ -21,6 +21,11 @@ public class vehiculo {
         
     }
 
+    public void mostrarModelo(){
+        System.out.println("Modelo: " + modelo);
+    }
+    
+
     @Override
     public String toString() {
         
